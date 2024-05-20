@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    header{
+        width: 100%;
+        background-color: #ff0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    
+    .container-logo{
+        display: flex;
+        align-items: center;
+
+    }
+    .logo-texto{
+        margin-left: 20px;
+        color: #fff;
+    }
+    .menu li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .menu li a{
+        font-size: 24px;
+        text-decoration: nome;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 10;
+    }
+    .menu li a:hover{
+        background-color: rgba(100, 100, 100, 0,5);
+    }
+
+    
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e21f1f;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para a barra de navegação */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  /* Estilos para os links na barra de navegação */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  /* Estilos para os links na barra de navegação quando estão sendo hover */
+  .navbar a:hover {
+    color: #ff0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  .header {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Estilos para os títulos */
+  h1 {
+    color: #10b8bb;
+  }
+  h2 {
+    color: rgb(203, 224, 14);
+  }
+  h4 {
+    color: #ff0;
+
+  }
+  h5 {
+    background-color: rgba(23, 4, 107, 0.438);
+    cursor: pointer;
+    
+  }
+  /* Estilos para o conteúdo principal */
+  .main-content {
+    background-color: #0ab8bb;
+    padding: 20px;
+  }
+  
+  /* Estilos para o rodapé */
+  .footer {
+    background-color: #57e6e3;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+
+    .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .myButton {
+    background-color: #cc0808;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .myButton:hover {
+    background-color: #36ca3d;
+  }
+  
